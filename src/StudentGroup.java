@@ -52,7 +52,7 @@ public class StudentGroup implements StudentArrayOperation {
           {
             throw new IllegalArgumentException();
           }
-        else return students[index]=student;
+        else return students[index];
  	}
 
 	@Override

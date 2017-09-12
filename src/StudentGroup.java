@@ -31,7 +31,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-	 /* if((index[]<0)||(index[]>students.length()||index[]=students.length()))
+	  if((index[]<0)||(index[]>students.length()||index[]=students.length()))
           {
             throw new IllegalArgumentException();
         
@@ -39,7 +39,7 @@ public class StudentGroup implements StudentArrayOperation {
          else
              {
                return student[index];
-             } */
+             } 
 	}
 
 	@Override

@@ -31,15 +31,8 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-	  if((index[]<0)||(index[]>students.length()||index[]=students.length()))
-          {
-            throw new IllegalArgumentException();
-        
-          }
-         else
-             {
-               return student[index];
-             } 
+	  this.students = students();
+          
 	}
 
 	@Override

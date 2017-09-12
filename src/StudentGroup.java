@@ -53,6 +53,7 @@ public class StudentGroup implements StudentArrayOperation {
             throw new IllegalArgumentException();
           }
         else return students[index];*/
+          return null;
  	}
 
 	@Override
